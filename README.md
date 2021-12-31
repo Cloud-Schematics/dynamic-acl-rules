@@ -24,22 +24,22 @@ locals {
     subnet_tier_1 = [
       {
         name = "test-subnet-1"
-        cidr = "10.10.0.10/24
+        cidr = "10.10.0.10/24"
       },
       {
         name = "test-subnet-2"
-        cidr = "10.20.0.10/24
+        cidr = "10.20.0.10/24"
       }
     ]
     # Subnets for tier 2
     subnet_tier_2 = [
       {
         name = "test-subnet-1"
-        cidr = "10.10.10.10/24
+        cidr = "10.10.10.10/24"
       },
       {
         name = "test-subnet-2"
-        cidr = "10.20.10.10/24
+        cidr = "10.20.10.10/24"
       }
     ]
   }
