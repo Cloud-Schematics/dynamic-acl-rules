@@ -10,6 +10,7 @@ module dynamic_acl_rules {
   prefix  = var.prefix
   subnets = var.subnets
 }
+```
 
 ### Creating Allow Rules For Subnet Tiers
 
