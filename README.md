@@ -4,7 +4,7 @@ This module creates a list of ACL Rules for use with the `ibm_is_network_acl` te
 
 ## Example Usage
 
-```hcl-terraform
+```hcl
 module dynamic_acl_rules {
   source  = "./dynamic_acl_rules
   prefix  = var.prefix
@@ -16,7 +16,7 @@ module dynamic_acl_rules {
 
 This module allows you to easily create allow rules for different subnet ACL tiers within the same VPC
 
-```hcl-terraform
+```hcl
 # Example Subnets
 locals {
   subnet_tiers = {
